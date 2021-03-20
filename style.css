@@ -1,10 +1,11 @@
-/* div,
+div,
 a,
 h1,
 p,
 nav {
     border: 1px solid red;
-} */
+}
+
 body {
     background-color: #f2f1f2;
     font-family: "Luckiest Guy", cursive;
@@ -24,15 +25,19 @@ p {
     overflow: hidden;
 }
 
+
 /* .img {
     height: 200px;
     /* background-color: bisque; */
+
+
 /* padding-inline-start: 120px;
 
 }
 /* * .img2 {
     height: 600px;
 } */
+
 .nav-item {
     background-color: white;
     font-size: 2rem;
@@ -41,11 +46,10 @@ p {
     vertical-align: middle;
     border-radius: 0.6rem;
     border-color: none;
-    width: 15rem;
+    width: 16rem;
     height: 4rem;
     padding: 1rem 2rem;
     margin-top: 1.2rem;
-    margin-inline-start: 6rem;
     text-decoration: none;
     text-transform: uppercase;
     text-overflow: clip;
@@ -69,7 +73,9 @@ p {
     color: #98bf94;
 }
 
+
 /*PILVED*/
+
 #clouds {
     padding: -100px 0;
     background: #f1f2f1;
@@ -77,7 +83,9 @@ p {
     background: -moz-linear-gradient(top, #f1f2f1 0%, #f1f2f1 100%);
 }
 
+
 /*Time to finalise the cloud shape*/
+
 .cloud {
     width: 200px;
     height: 60px;
@@ -112,14 +120,18 @@ p {
     right: 15px;
 }
 
+
 /*Time to animate*/
+
 .x1 {
     left: -50px;
     top: 200px;
     animation: moveclouds 45s linear infinite;
 }
 
+
 /*variable speed, opacity, and position of clouds for realistic effect*/
+
 .x2 {
     left: 300px;
     transform: scale(0.6);
@@ -166,8 +178,11 @@ p {
     }
 }
 
-.section_footer {
-    padding-top: 100px;
+@include media-breakpoint-up(sm) {
+    .row section_paevajooga_harjutused {
+        display: block;
+    }
 }
+
 
 /*# sourceMappingURL=style.css.map */
