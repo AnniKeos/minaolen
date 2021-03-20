@@ -186,6 +186,17 @@ p {
 }
 
 
+
 .section_footer {
   padding-top: 100px;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+@media (min-width: 768px) {
+  p {
+    font-size: 1rem;
+  }
 }
